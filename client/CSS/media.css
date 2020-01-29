@@ -1,0 +1,85 @@
+@media only screen and (max-width: 879px) {
+    .container {
+        position:           relative;
+        display:            inline-block;
+        float:              right;
+    }
+
+    .dropdown-content {
+        display:            none;
+        width:              200px;
+        height:             200px;
+        position:           absolute;
+        background-color:   #F8F8F8;
+        box-shadow:         0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding:            20px;
+    }
+
+    .container:hover .dropdown-content {
+        text-decoration:    none;
+        right:              0;
+        display:            block;
+        text-align:         right;
+    }
+
+    .container .dropdown-content a {
+        display:            table;
+        text-decoration:    none;
+        font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+        color:              black;
+        padding:            0px 0px 30px 0px;
+    }
+    .container .dropdown-content a:hover {
+        color:              #8f0000;
+    }
+
+    .right, .left {
+        /*float:              left;*/
+        margin:             20px;
+    }
+}
+
+@media only screen and (min-width: 880px) {
+    #menu-icon {
+        display:            none;
+    }
+
+    .container {
+        float:              right;
+    }
+
+    .container div a{
+        padding-top:        0px;
+        display:            inline;
+        list-style:         none;
+        position:           relative;
+        border-right:       1px solid black;
+        padding-right:      4px; /* centers hover */
+    }
+
+    .dropdown-content .logout {
+        border-right:       none;
+    }
+
+    .container div a:hover {
+        background-color:   #EBEBEB;
+    }
+
+    .container div a:active {
+        background-color:   #D2D1D1;
+    }
+
+    .container div a {
+        display:            inline-block;
+        font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+        color:              black;
+        font-size:          20px;
+        padding:            0px 20px;
+        text-decoration:    none;
+    }
+
+    .right, .left {
+        /*float:              left; UNDO FOR 2 COLUMNS ON HOME*/
+        margin:             20px;
+    }
+}

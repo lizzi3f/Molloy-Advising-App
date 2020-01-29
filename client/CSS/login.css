@@ -1,0 +1,141 @@
+*{margin:0;padding:0}
+
+header {
+    border-bottom:      1px solid #8f0000;
+    padding:            20px 20px 20px 5px;
+}
+
+header p {
+    margin-left:        20px;
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+    font-size:          20px;
+    color:              #8f0000;
+    font-weight:        bold;
+    display:            inline-block;
+}
+
+nav ul {
+    float:              right;
+}
+
+nav ul li {
+    display:            inline;
+    list-style:         none;
+    position:           relative;
+    border-right:       1px solid black;
+    padding-right:      4px; /* centers hover */
+}
+
+nav ul li:last-child {
+    border-right:       none;
+}
+
+#forgot-pw:link {
+    color:              black;
+}
+
+#forgot-pw:visited {
+    color:              red;
+}
+
+nav ul li a {
+    display:            inline-block;
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+    color:              black;
+    font-size:          20px;
+    padding:            0px 20px;
+    text-decoration:    none;
+}
+
+h1 {
+    margin-top:         50px;
+    font-size:          30px;
+    padding-left:       20px;
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+}
+
+h2 {
+    margin-left:        20px;
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+    font-size:          20px;
+    color:              #8f0000;
+}
+
+/*
+body {
+    background-color:   lightgray;
+}
+*/
+
+.login-container {
+    width:              500px;
+    height:             auto;
+    padding:            100px 40px 30px 40px;
+    background-color:   white;
+    border-radius:      10px;
+    box-shadow:         0 0 10px 0 black;
+    margin:             auto;
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+    position:           relative;
+}
+
+.user-img {
+    background:         url('../userimage.png') no-repeat;
+    width:              90px;
+    height:             90px;
+    background-size:    100%;
+    position:           absolute;
+    top:                20px;
+    left:               250px;
+}
+
+ul.list {
+    list-style-type:    none;
+    text-align:         center;
+}
+
+ul.list li {
+    width:              500px;
+    margin-bottom:      10px;
+}
+
+ul.list li input {
+    width:              250px;
+    text-align:         center;
+    font-size:          15px;
+    padding:            8px 0px;
+    border:             none;
+    background-color:   #E8E8E8;
+    border-radius:      10px; /*curved*/
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+
+}
+
+ul.list li input[type=submit] {
+    background-color:   #8f0000;
+    color:              white;
+}
+
+ul.list li input[type=submit]:hover {
+    opacity:            75%;
+    color:              white;
+}
+
+#loginPage {
+    width:              100%;
+    text-align:         center;
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+    font-size:          30px;
+}
+
+footer {
+    position:           fixed;
+    height:             30px;
+    bottom:             0px;
+    display:            inline-block;
+    width:              100%;
+    background:         #8f0000;
+    color:              white;
+    text-align:         center;
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+}
