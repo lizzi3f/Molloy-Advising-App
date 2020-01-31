@@ -95,10 +95,10 @@ const CourseSearch = () => {
                   </td>
               </tr>
     </table>
-      <p>
+  </div>
+      /*<p>
           <input id="submitButton" type="submit" />
-      </p>
-    </div>
+      </p>*/
     )
   }
 
