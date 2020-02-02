@@ -1,0 +1,364 @@
+{
+  "advisor": [
+    {
+      "_id": "5e20903435877ae47fb792e5",
+      "Advisor_id": "1",
+      "FirstName": "Jason",
+      "LastName": "Schanker",
+      "Department": "1",
+      "Address": {
+        "Street": "444 wow lane",
+        "City": "Long Beach",
+        "State": "New York",
+        "ZipCode": "11111"
+      }
+    }
+  ],
+  "courseSections": [
+    {
+      "_id": "5e2e477f1c9d440000aa0389",
+      "section_id": "1",
+      "course_id": "100",
+      "professor_id": "1",
+      "Schedule": {
+        "StartDate": "2020-01-15T05:00:00.000+00:00",
+        "EndDate": "2020-04-30T04:00:00.000+00:00",
+        "Days": "MW",
+        "StartTime": "3:05",
+        "EndTime": "4:30"
+      }
+    }
+  ],
+  "courses": [
+    {
+      "_id": "5e2ee5791c9d440000e92df4",
+      "major_id": "1",
+      "course_id": "110",
+      "code": "CIS110",
+      "course_Name": "Database Design",
+      "course_Description": "Learn to connect tables"
+    },
+    {
+      "_id": "5e2e15321c9d4400009ee5bc",
+      "major_id": "2",
+      "course_id": "100",
+      "code": "CSC100",
+      "course_Name": "Programming I",
+      "course_Description": "Learn the basics of Javascript"
+    },
+    {
+      "_id": "5e2ee1251c9d440000e92df0",
+      "major_id": "2",
+      "course_id": "200",
+      "code": "CSC200",
+      "course_Name": "Programming II",
+      "course_Description": "Now the real fun begins"
+    },
+    {
+      "_id": "5e2ee49f1c9d440000e92df1",
+      "major_id": "2",
+      "course_id": "300",
+      "code": "CSC300",
+      "course_Name": "Programming III",
+      "course_Description": "now you get a 2nd horizontal monitor to work on now"
+    },
+    {
+      "_id": "5e2ee5a11c9d440000e92df5",
+      "major_id": "2",
+      "course_id": "420",
+      "code": "CSC110",
+      "course_Name": "Skynet world",
+      "course_Description": "You ready for a world of AIs"
+    },
+    {
+      "_id": "5e2ee7431c9d440000e92df6",
+      "major_id": "2",
+      "course_id": "364",
+      "code": "CSC364",
+      "course_Name": "Physics of Mario",
+      "course_Description": "Ya-hoo!"
+    },
+    {
+      "_id": "5e2ee8dc1c9d440000e92dfc",
+      "major_id": "3",
+      "course_id": "101",
+      "code": "MTH101",
+      "course_Name": "The Easy A",
+      "course_Description": "What's 1+1=?"
+    },
+    {
+      "_id": "5e2ee78a1c9d440000e92df7",
+      "major_id": "1",
+      "course_id": "112",
+      "code": "CIS112",
+      "course_Name": "Database Theory",
+      "course_Description": "Seriously, how do these tables connect?"
+    },
+    {
+      "_id": "5e2ee80a1c9d440000e92df8",
+      "major_id": "1",
+      "course_id": "203",
+      "code": "CIS203",
+      "course_Name": "Troubleshooting",
+      "course_Description": "Have you tried turning it off and on again?"
+    },
+    {
+      "_id": "5e2ee8421c9d440000e92df9",
+      "major_id": "1",
+      "course_id": "221",
+      "code": "CIS221",
+      "course_Name": "Networks I",
+      "course_Description": "The Seven layers of the OSI model are..."
+    }
+  ],
+  "department": [
+    {
+      "_id": "5e2f21961c9d440000a937a1",
+      "Department_id": "1",
+      "Name": "Computer Science",
+      "Head": ""
+    },
+    {
+      "_id": "5e2f21bc1c9d440000a937a2",
+      "Department_id": "3",
+      "Name": "Mathematics",
+      "Head": ""
+    },
+    {
+      "_id": "5e2092c135877ae47fb7fc03",
+      "Department_id": "2",
+      "Name": "Computer Information Systems",
+      "Head": ""
+    }
+  ],
+  "majors": [
+    {
+      "_id": "5e2bb8a41c9d4400006701cd",
+      "major_id": "1",
+      "department_id": "1",
+      "info": {
+        "major_Name": "Computer Information Systems",
+        "major_Short": "CIS",
+        "Academic year": "Junior"
+      }
+    },
+    {
+      "_id": "5e2e17341c9d4400009007f7",
+      "major_id": "2",
+      "department_id": "1",
+      "info": {
+        "major_Name": "Computer Science",
+        "major_Short": "CSC",
+        "Academic year": "senior",
+        "Type": "Undergrad"
+      }
+    },
+    {
+      "_id": "5e2ee8b81c9d440000e92dfb",
+      "major_id": "3",
+      "department_id": "1",
+      "info": {
+        "major_Name": "Mathematics",
+        "major_Short": "MTH",
+        "Academic year": "Junior",
+        "Type": "Undergrad"
+      }
+    }
+  ],
+  "minors": [
+    {
+      "_id": "5e2e46971c9d440000aa0388",
+      "minor_id": "1",
+      "department_id": "1",
+      "Info": {
+        "Minor_Name": "Forensics",
+        "Minor_Short": "For"
+      }
+    }
+  ],
+  "professorLogins": [
+    {
+      "_id": "5e2e49531c9d440000aa038b",
+      "professor_id": "2",
+      "username": "FLuffy",
+      "password": "Molloy",
+      "Recovery": {
+        "Question": "What is your favorite food?",
+        "Answer": "Pizza"
+      }
+    }
+  ],
+  "professors": [
+    {
+      "_id": "5e2e48b91c9d440000aa038a",
+      "professor_id": "1",
+      "FirstName": "James",
+      "LastName": "Junior",
+      "Department_id": "3",
+      "Address": {
+        "Street": "111 one street",
+        "City": "merrick",
+        "State": "New York",
+        "ZipCode": "10101"
+      }
+    }
+  ],
+  "studentLogins": [
+    {
+      "_id": "5e1f54ad1c9d44000044b7d5",
+      "student_id": "1",
+      "username": "JFischetti",
+      "password": "molloy",
+      "Recovery": {
+        "Question": "What is your first pets name?",
+        "Answer": "Woofer"
+      }
+    }
+  ],
+  "students": [
+    {
+      "_id": "5e1f5c371c9d440000c577ac",
+      "StudentId": "7",
+      "FirstName": "Molly",
+      "LastName": "VanDusen",
+      "Advisor": "3",
+      "Department": "Nursing",
+      "Major": "Nursing",
+      "Minor": "",
+      "Year": "Senior",
+      "Phone": "(516)223-897",
+      "Address": {
+        "Street": "762 Cherry Road",
+        "City": "Old Westbury",
+        "State": "New York",
+        "Zip Code": "11712"
+      }
+    },
+    {
+      "_id": "5e1f57c81c9d440000bf3c46",
+      "StudentId": "3",
+      "FirstName": "Allen",
+      "LastName": "Winter",
+      "Advisor": "1",
+      "Department": "CSC/CIS/Math",
+      "Major": "CIS",
+      "Minor": "",
+      "Year": "Senior",
+      "Phone": "(516)561-0165",
+      "Address": {
+        "Street": "123 Sesame Street",
+        "City": "Merrick",
+        "State": "New York",
+        "Zip Code": "11566"
+      }
+    },
+    {
+      "_id": "5e1f59d91c9d440000a10e4f",
+      "StudentId": "5",
+      "FirstName": "Devon ",
+      "LastName": "Hagerstrom",
+      "Advisor": "2",
+      "Department": "2",
+      "Major": "Bio Education ",
+      "Minor": "",
+      "Year": "Senior",
+      "Phone": "(516)789-9090",
+      "Address": {
+        "Street": "555 Maple Street",
+        "City": "Bethpage",
+        "State": "New York",
+        "Zip Code": "11760"
+      }
+    },
+    {
+      "_id": "5e1f5bb41c9d440000c577aa",
+      "StudentId": "6",
+      "FirstName": "Connor",
+      "LastName": "Brynne",
+      "Advisor": "1",
+      "Department": "CSC/CIS/Math",
+      "Major": "Computer Science",
+      "Minor": "",
+      "Year": "Senior",
+      "Phone": "(516)667-3425",
+      "Address": {
+        "Street": "459 Pine Street",
+        "City": "Syosset",
+        "State": "New York",
+        "Zip Code": "11798"
+      }
+    },
+    {
+      "_id": "5e24a6711c9d440000ddeb17",
+      "StudentId": "8",
+      "FirstName": "Joey",
+      "LastName": "Bananas",
+      "Advisor": "4",
+      "Department": "BIO/CHE/ESC",
+      "Major": "Environmental Studies",
+      "Minor": "",
+      "Year": "Junior",
+      "Phone": "(516)411-8000",
+      "Address": {
+        "Street": "45 Grover Way",
+        "City": "Bellmore",
+        "State": "New York",
+        "Zip Code": "11710"
+      }
+    },
+    {
+      "_id": "5e1f54d41c9d4400008ff409",
+      "StudentId": "1",
+      "FirstName": "Jessica",
+      "LastName": "Fischetti",
+      "Advisor": "1",
+      "Department": "1",
+      "Major": "1",
+      "Minor": "2",
+      "Year": "Senior",
+      "Phone": "(516)491-8910",
+      "Address": {
+        "Street": "3981 Sunset Avenue",
+        "City": "Seaford",
+        "State": "New York",
+        "ZipCode": "11783"
+      }
+    },
+    {
+      "_id": "5e1f57ac1c9d440000349a26",
+      "StudentId": "2",
+      "FirstName": "Katie",
+      "LastName": "Quinto",
+      "Advisor": "1",
+      "Department": "CSC/CIS/Math",
+      "Major": "CIS",
+      "Minor": "",
+      "Year": "Senior",
+      "Phone": "555-555-5555",
+      "Address": {
+        "Street": "555 Drew Lane",
+        "City": "Oceanside",
+        "State": "New York",
+        "ZipCode": "11572",
+      }
+    },
+    {
+      "_id": "5e1f59ac1c9d440000349a2c",
+      "StudentId": "4",
+      "FirstName": "John",
+      "LastName": "James",
+      "Advisor": "2",
+      "Department": "Bus",
+      "Major": "Bus",
+      "Minor": "",
+      "Year": "Senior",
+      "Phone": "(555)555-5555",
+      "Address": {
+        "Street": "122 Senior Street",
+        "City": "Great Neck",
+        "State": "New York",
+        "Zip Code": "11111"
+      }
+    }
+  ]
+}
