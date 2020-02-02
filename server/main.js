@@ -1,7 +1,9 @@
 import { Meteor } from 'meteor/meteor';
 import { Courses } from '../imports/collections/courses';
 
+
 Meteor.startup(() => {
+  
 /*
   Courses.insertMany([{
     _id: "5e2ee5791c9d440000e92df4",
