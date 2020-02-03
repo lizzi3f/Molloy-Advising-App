@@ -96,7 +96,7 @@ const CourseSearch = () => {
               </tr>
     </table>
       <p>
-          <input id="submitButton" type="submit" />
+          <input id="submitButton" className="btn" type="submit" />
       </p>
     </div>
     )

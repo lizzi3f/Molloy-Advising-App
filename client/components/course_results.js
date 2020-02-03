@@ -8,13 +8,18 @@ const PER_PAGE = 20;
 class CourseResults extends Component {
   componentWillMount() {
     this.page = 1;
+    this.addedCourses = [];
+  }
+
+  handleButtonClick() {
+
   }
 
   render() {
     return (
 
       <div>
-        <table>
+        <table id="courseResultsTable">
           <div>
             <tr>
               <td><label>ID</label></td>
@@ -28,6 +33,8 @@ class CourseResults extends Component {
             </div>
           </div>
         </table>
+        <button id="addButton" className="btn"
+        onClick={this.handleButtonClick}>Confirm</button>
       </div>
     )
   }
