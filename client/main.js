@@ -4,6 +4,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import CourseSearch from './components/course_search';
 import CourseResults from './components/course_results';
+import Schedule from './components/schedule';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Header />
       <CourseSearch />
       <CourseResults />
+      <Schedule />
       <Footer />
     </div>
   );
