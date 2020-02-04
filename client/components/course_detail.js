@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
+import { Checkbox } from '@material-ui/core';
 
 const CourseDetail = ({ course }) => {
-  const { course_id, code, course_Name, course_Description } = course;
+  const { _id, course_id, code, course_Name, course_Description } = course;
 
   return (
     <div>
       <tr>
-        <td><label>{course_id}</label></td>
-        <td><label>{code}</label></td>
-        <td><label>{course_Name}</label></td>
-        <td><label>{course_Description}</label></td>
+        <td><label className="courseId">{course_id}</label></td>
+        <td><label className="code">{code}</label></td>
+        <td><label className="courseName">{course_Name}</label></td>
+        <td><label className="courseDescription">{course_Description}</label></td>
+        <td className="checkbox"><Checkbox /></td>
       </tr>
     </div>
   );

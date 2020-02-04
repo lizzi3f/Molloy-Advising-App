@@ -1,5 +1,10 @@
 import { Mongo } from 'meteor/mongo';
+import { DDP } from 'meteor/ddp-client';
 
-// const uri = "mongodb+srv://rdoherty@lions.molloy.edu:10547238@advisingmolloydb-b0iqm.mongodb.net/test?retryWrites=true&w=majority";
+export const Courses = new Mongo.Collection('courses');
 
- export const Courses = new Mongo.Collection('courses');
+if (Meteor.isServer) {
+  Meteor.publish('tasks', function taskPublication() {
+    return Courses.find();
+  })
+}
